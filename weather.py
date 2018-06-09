@@ -3,15 +3,15 @@ class weather:
         self.set_weather_details(weather_type)
 
     def set_weather_details(self, value):
-        if value == 'sunny':
+        if value == 'Sunny':
             self.crater_percent = -10
-            self.vehicle = ['bike', 'tuktuk', 'car', ]
-        elif value == 'rainy':
+            self.vehicle = ['Bike', 'Tuktuk', 'Car', ]
+        elif value == 'Rainy':
             self.crater_percent = 20
-            self.vehicle = ['tuktuk', 'car', ]
-        elif value == 'windy':
+            self.vehicle = ['Tuktuk', 'Car', ]
+        elif value == 'Windy':
             self.crater_percent = 0
-            self.vehicle = ['bike','car']
+            self.vehicle = ['Bike','Car']
 
     def get_weather_details(self):
         return self.crater_percent, self.vehicle

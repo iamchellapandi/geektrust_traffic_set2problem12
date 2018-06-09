@@ -3,10 +3,10 @@ class orbit:
         self.set_orbit_details(orbit_name)
 
     def set_orbit_details(self,value):
-        if value == 'orbit1':
+        if value == 'Orbit1':
             self.orbit_distance = 10
             self.orbit_crater = 20
-        elif value == 'orbit2':
+        elif value == 'Orbit2':
             self.orbit_distance = 20
             self.orbit_crater = 10
     def get_orbit_details(self):
